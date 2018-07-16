@@ -1,0 +1,45 @@
+button, div, form, input {
+      margin: 5px;
+      text-align:center;
+      font-family: 'Share Tech', sans-serif;
+    }
+
+#top, .gif-button {
+  background-color:green;
+  text-align:center;
+  margin:auto;
+  padding:15px;
+  font-size:100px;
+  line-height: 100px;
+  color:white;
+  border-radius: 5px;
+  box-shadow: 10px 10px black;
+  text-shadow: 5px 5px black
+}
+
+img {
+  box-shadow: 10px 10px green;
+}
+
+#thing-form {
+  margin:auto;
+  text-align:center;
+}
+
+/* .gif-button {
+  background-color:rgba(236, 146, 42, 0.904);
+  color:white;
+  font-size:15px;
+  border-radius: 5px;
+} */
+
+#gifs {
+  display: inline-grid;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+/* tried to make the Submit button font match the rest, didn't work
+#thing-input {
+  font-family: 'Share Tech', sans-serif;
+} */
